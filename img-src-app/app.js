@@ -46,13 +46,15 @@ searchResultsEl.appendChild(imageWrapper);
  
 page++; 
 
-console.log(page);
-
-
 if(page > 1) {
 showMoreBtn.style.display ="block";	
 }
 
+if (inputData == "")  {
+showMoreBtn.style.display ="none";	
+
+
+}
 
 
 }
